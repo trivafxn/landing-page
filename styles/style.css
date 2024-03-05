@@ -6,6 +6,8 @@ body {
     margin: 0;
 }
 
+/* header */
+
 .header {
     display: flex;
     flex-direction: row;
@@ -33,4 +35,53 @@ body {
 .nav-bar a {
     text-decoration: none;
     color: inherit;
+
+}
+
+/* hero */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: #1f2937;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex-basis: 450px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero button {
+    margin-top: 10px;
+    width: 130px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-style: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hero-image img {
+    margin-left: 50px;
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
 }
