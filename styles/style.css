@@ -1,0 +1,36 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #1f2937;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 600;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: inherit;
+}
