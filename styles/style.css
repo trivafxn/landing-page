@@ -89,11 +89,14 @@ body {
 
 /* information */
 
+.info-container {
+    padding: 50px;
+}
+
 .information {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
     margin-bottom: 50px;
     font-size: 36px;
     font-weight: 600;
@@ -126,4 +129,38 @@ body {
     width: 200px;
     text-align: center;
     margin-top: 15px;
+    color: #4d4d4d;
 }
+
+/* quote */
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    background-color: #e5e7eb;
+}
+
+.quote-container {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: 600;
+    font-size: 20px;
+    color: #1f2937;
+}
+
