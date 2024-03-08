@@ -3,7 +3,6 @@
 }
 
 body {
-    height: 1500px;
     margin: 0;
 }
 
@@ -207,4 +206,14 @@ body {
     font-size: 15px;
     padding: 0 5px;
     cursor: pointer;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #1f2937;
+    color: white;
 }
